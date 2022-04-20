@@ -1,0 +1,68 @@
+header{
+    padding: 25px;
+}
+.menu .menu-items .item {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.menu li > a {
+    color: #E23F3F;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.6;
+    text-decoration: none; 
+}
+.menu li.item > a {
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+    border-bottom: 1px solid rgba(255, 62, 4, 0);
+    padding-bottom: 2px; 
+}
+.menu li.item > a:hover {
+    color: #E23F3F;
+    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid #E23F3F; 
+    }
+.menu li.item.selected > a {
+    color: #E23F3F;
+    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid #E23F3F;
+}
+.footer-text{
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 11px;
+    color: #E23F3F;
+    text-align: center;
+    margin-bottom: 80px; 
+    position: fixed;
+    top: 500px;
+    bottom: 50px;
+    right: 300px;
+    left: 345px;
+}
+.fa-close{
+    color: black;
+    content: attr(data-button-icon);
+    float: right;
+    padding-left: 1em;
+}
+.fa-instagram{
+    color: black;
+    font-size: 36px;
+    position: fixed;
+    top: 400px;
+    right:49%;
+}
+.fa-linkedin-square{
+    color: black;
+    font-size: 36px;
+    position: fixed;
+    top: 400px;
+    right:47%;
+}

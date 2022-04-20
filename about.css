@@ -1,0 +1,26 @@
+header{
+    padding: 25px;
+}
+p{
+    color: #E23F3F;
+    text-align: center;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 50%;
+    height:auto;
+}
+i{
+    color: #E23F3F;
+    content: attr(data-button-icon);
+    float: right;
+    padding-left: 1em;
+}

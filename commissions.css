@@ -1,0 +1,25 @@
+header{
+    padding:25px;
+}
+i{
+    color: #E23F3F;
+    content: attr(data-button-icon);
+    float: right;
+    padding-left: 1em;
+}
+.footer-text{
+    letter-spacing: .1px;
+    word-spacing: .1px;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    color: #E23F3F;
+    text-align: center;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    font-style: normal;
+}

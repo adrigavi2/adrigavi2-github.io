@@ -1,0 +1,60 @@
+img{
+  border-radius: 50%;
+  width: 750px;
+  height: 750px;
+  float: right;
+}
+a:link, a:visited {
+  line-height: 600px;
+  left:250px; 
+  top:110px;
+  text-indent: 2px;
+  letter-spacing: .1px;
+  word-spacing: .1px;
+  position:relative; 
+  background-color: transparent;
+  color: #E23F3F;
+  text-align: center;
+  font-family: "Poppins Regular", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+  
+a:hover, a:active {
+  background-color: opacity 0.5;
+}
+.footer-text{
+  letter-spacing: .1px;
+  word-spacing: .1px;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  width: 100%;
+  color: #E23F3F;
+  text-align: center;
+  font-family: "Poppins Regular", sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  font-style: normal;
+}
+.fa-instagram{
+  color: black;
+  font-size: 36px;
+  position: fixed;
+  top: 400px;
+  right:48%;
+}
+.fa-linkedin-sqaure{
+  color: black;
+  font-size: 36px;
+  position: fixed;
+  top: 400px;
+  right:48%;
+}
