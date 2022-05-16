@@ -1,0 +1,80 @@
+h1{
+    float: left;
+    display: inline;
+    margin-left: 1%;
+    margin-top: 10%;
+    line-height: 150%;
+  }
+  .home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30;
+  }
+  a.home:link, a.home:active, a.home:visited {
+    color: black;
+    text-decoration: none;
+  }
+  a.home:hover {
+    font-size: 35;
+    text-decoration: none;
+  }
+  .portfolio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    font-weight: normal;
+  }
+  .brandwork{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    color: #E23F3F;
+    text-decoration: underline;
+    font-weight: normal;
+  }
+  a.portfolio:link, a.portfolio:active, a.portfolio:visited {
+    color: black;
+    text-decoration: none;
+  }
+  a.portfolio:hover {
+    font-size: 25;
+    text-decoration: none;
+  }
+  .column {
+    float: right;
+    width: 20%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    font-weight: lighter;
+    display: block;
+    text-align: right;
+    margin-top: 2%;
+  }
+  .footer-text{
+    letter-spacing: .1px;
+    word-spacing: .1px;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    color: #E23F3F;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    font-style: normal;
+  }
+  .fa-instagram{
+    color: black;
+    font-size: 36px;
+    position: fixed;
+    top: 400px;
+    right:48%;
+  }

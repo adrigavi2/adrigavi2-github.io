@@ -15,7 +15,7 @@ a:link, a:visited {
   background-color: transparent;
   color: #E23F3F;
   text-align: center;
-  font-family: "Poppins Regular", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   font-style: italic;
@@ -39,7 +39,7 @@ a:hover, a:active {
   width: 100%;
   color: #E23F3F;
   text-align: center;
-  font-family: "Poppins Regular", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
   font-weight: lighter;
   font-style: normal;
@@ -47,14 +47,5 @@ a:hover, a:active {
 .fa-instagram{
   color: black;
   font-size: 36px;
-  position: fixed;
-  top: 400px;
-  right:48%;
-}
-.fa-linkedin-sqaure{
-  color: black;
-  font-size: 36px;
-  position: fixed;
-  top: 400px;
-  right:48%;
+  position: center;
 }
